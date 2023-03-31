@@ -1,8 +1,6 @@
 export function convertSecondsToTimePaceFormat(seconds: number) {
-    const paceMins = Math.floor(seconds % 60);
-    const paceSeconds = Math.round((seconds - paceMins) * 60);
     return {
-        min: paceMins,
-        seconds: paceSeconds,
+        min: Math.floor(seconds / 60),
+        seconds: Math.round((seconds % 60)),
     };
 }

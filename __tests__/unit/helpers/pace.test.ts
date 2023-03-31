@@ -1,6 +1,6 @@
 import { convertSecondsToTimePaceFormat, timeFormat } from './../../../src';
 
-/*describe('"min/km" pace', () => {
+describe('"min/km" pace', () => {
   test('Without use timeFormat', () => {
     expect(convertSecondsToTimePaceFormat(240)).toEqual({
         min: 4, seconds: 0
@@ -14,4 +14,4 @@ import { convertSecondsToTimePaceFormat, timeFormat } from './../../../src';
   
 
   
-});*/
+});
